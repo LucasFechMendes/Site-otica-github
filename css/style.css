@@ -58,7 +58,6 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: relative; /* Mantém o cabeçalho em uma camada acima do menu */
     z-index: 1001; /* Coloca o cabeçalho acima do menu */
-    height: 110px;
 }
 
 .logo img {
@@ -228,13 +227,13 @@ a {
     }
 
     /* Botão de WhatsApp centralizado */
-     .sociais > .whatsapp-button{  
+    .sociais > a > button.whatsapp-button > {  
         display: flex;
         justify-content: center;
         align-items: center;
         width: 230%; /* Ajusta para dar espaço nas laterais */
         max-width: 370px; /* Largura máxima para evitar que o botão se estenda muito */
-        margin: 10px auto 10px -50%; /* Margem esquerda para alinhamento */
+        margin: 10px auto 10px -700%; /* Margem esquerda para alinhamento */
         padding: 22px;
         font-size: 20px;
         background-color: #25D366;
