@@ -61,7 +61,7 @@ header {
 }
 
 .logo img {
-    width: 170px;
+    width: 130px;
     cursor: pointer;
 }
 
@@ -227,13 +227,14 @@ a {
     }
 
     /* Botão de WhatsApp centralizado */
-     .sociais > .whatsapp-button{     display: flex;
+     .sociais > .whatsapp-button{  
+        display: flex;
         justify-content: center;
         align-items: center;
-        width: 200%; /* Ajusta para dar espaço nas laterais */
-        max-width: 350px; /* Largura máxima para evitar que o botão se estenda muito */
+        width: 230%; /* Ajusta para dar espaço nas laterais */
+        max-width: 370px; /* Largura máxima para evitar que o botão se estenda muito */
         margin: 10px auto 10px -50%; /* Margem esquerda para alinhamento */
-        padding: 15px;
+        padding: 22px;
         font-size: 20px;
         background-color: #25D366;
         color: white;
@@ -283,7 +284,7 @@ a {
     }
 
     .logo img {
-        width: 200px;
+        width: 150px;
         margin-bottom: 5px;
     }
 
@@ -662,10 +663,11 @@ article.parceiros > .container {
     padding: 20px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .main-container > h1 {
-    font-size: 3.0em;
+    font-size: 2.5em;
     font-weight: 600;
     color: #004f6d;
     margin-bottom: 20px;
@@ -696,7 +698,7 @@ article.parceiros > .container {
     padding: 10px 20px;
     margin: 0 10px;
     border-radius: 8px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #000000;
     background-color: #cce7f2;
     transition: all 0.3s ease;
@@ -749,6 +751,8 @@ article.parceiros > .container {
     .main-container {
         margin: 10px;
         padding: 15px;
+        max-width: 95%;
+        margin-bottom: 30px;
     }
 
     h1 {
@@ -764,7 +768,7 @@ article.parceiros > .container {
     .lentes-lista li {
         padding: 8px 15px;
         margin: 5px 0;
-        font-size: 1.4em;
+        font-size: 1.0em;
     }
 
     .linha-decorativa {
@@ -798,11 +802,12 @@ article.parceiros > .container {
     background-color: #e6f2ff; /* Fundo azul claro */
     text-align: left;
     gap: 20px;
-    max-width: 1200px;
+    max-width: 90%;
     margin: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex-direction: column;
+
 }
 
 /* Estilos para o título */
@@ -850,8 +855,8 @@ article.parceiros > .container {
 .presentation-content p {
     font-size: 1.2em;
     color: #003366; /* Azul escuro */
-    margin-bottom: 20px;
-    line-height: 1.6;
+    margin-bottom: 10px;
+    line-height: 1.4;
 }
 .route-title {
     text-align: center; /* Centraliza o título */
@@ -897,9 +902,14 @@ article.parceiros > .container {
 
 /* Ajustes de responsividade */
 @media (max-width: 950px) {
+    .presentation-section{
+        max-width: 90%;
+    }
+    
     .content-wrapper {
         flex-direction: column;
         text-align: center;
+        margin: 20px;
     }
 
     .presentation-buttons {
@@ -908,7 +918,7 @@ article.parceiros > .container {
     }
 
     .presentation-content p {
-        margin: 20px 0;
+        margin: 10px 0;
     }
 }
 
@@ -1024,8 +1034,8 @@ section details > button.whatsapp-button > p {
     }
 
     section details > button.whatsapp-button {
-        font-size: 0.8em;
-        padding: 5px 8px;
+        font-size: 0.6em;
+        padding: 4px 4px;
     }
 }
 
@@ -1154,14 +1164,14 @@ footer {
 
     div.sociais {
         margin-top: 10px; /* Espaçamento acima do botão */
-        text-align: right; /* Alinha o botão à direita */
+        text-align: center; /* Alinha o botão à direita */
     }
 
     div.footer-section > .sociais{
         width: auto; /* Ajusta a largura do botão */
         font-size: 14px; /* Reduz o tamanho da fonte */
         height: 35px; /* Ajusta a altura para o botão ficar proporcional */
-        margin-left: 300px;
+        margin-left: 200px;
     }
 
     .sociais button i {
