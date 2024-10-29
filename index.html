@@ -9,240 +9,229 @@
 
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="imagens/logo-otica-Copia-removebg-preview.png" alt="Logo">
+    <container>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="imagens/logo-otica-Copia-removebg-preview.png" alt="Logo">
+                </div>
+                <div class="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="menu">
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#">Lentes</a>
+                        <a href="#">Nos conheca</a>
+                        <a href="#">Parceiros</a>
+                        <a href="#">Dúvidas</a>
+                        <div class="sociais">
+                            <button class="whatsapp-button">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <p>Entre em contato</p>
+                            </button>
+                                                    </div>
+                            </a>
+                    </nav>
+                </div>
             </div>
-            <div class="menu-toggle">
-                <i class="fa-solid fa-bars"></i>
+        </header>
+        
+        <article class="promocao">
+            <section class="promo-section">
+                <div class="promo-slides">
+                    <div class="promo-slide active">
+                        <div class="promo-image">
+                            <img src="imagens/beautiful-blond-woman-put-glasses-laughing-smiling-with-happy-face-expression-standing-blue-shirt-white.jpg" alt="">
+                        </div>
+                        <div class="promo-text">
+                            <h2>🎉 Grande Oferta de Armações! 🎉</h2>
+                            <h3>Aproveite nossas incríveis armações por apenas R$ 99,00!</h3>
+                            <p> <ul>
+                                <li>🔹 Qualidade e conforto garantidos!</li>
+                                    <li>🔹 Escolha entre diversos modelos modernos!</li>
+                                    <li>🔹 Promoção por tempo limitado — não fique de fora!</li>
+        
+                                    <li>👉 Garanta já a sua!</li>
+                            </ul></p>
+                        </div>
+                    </div>
+                    <div class="promo-slide">
+                        <div class="promo-image">
+                            <img src="imagens/Design sem nome.png" alt="lente-multifocal">
+                        </div>
+                        <div class="promo-text">
+                            <h2 style=>🔵 Promoção: Lentes de Proteção Blue! </h2>
+                            <h2 style=>A partir de R$ 198,00!</h2>
+                            <p style=>
+                                Proteja seus olhos da luz azul nociva com nossas lentes de alta qualidade. Elas ajudam a reduzir a fadiga ocular e oferecem conforto durante longas horas em frente às telas.
+                            </p>
+                            <ul style="display: flex; padding-left: 0; margin: 5px 0; list-style-type: none;">
+                                <li style="margin-right: 15px;">🔹Proteção Superior</li>
+                                <li style="margin-right: 15px;">🔹Conforto Visual</li>
+                                <li>🔹Estilo e Variedade</li>
+                            </ul>
+                            <p style="font-size: 1.4rem;">🕶️ Aproveite essa oferta e cuide da sua visão!</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Indicadores -->
+                <div class="promo-indicators">
+                    <span class="indicator active" onclick="showSlide(0)"></span>
+                    <span class="indicator" onclick="showSlide(1)"></span>
+                </div>
+            </section>
+        </article>
+        
+                <!-- Indicadores -->
+                <div class="promo-indicators">
+                    <span class="indicator active" onclick="showSlide(0)"></span>
+                    <span class="indicator" onclick="showSlide(1)"></span>
+                </div>
+            </section>
+        </article>
+        
+        <div class="main-container">
+            <h1>Nossas lentes</h1>
+            <div class="lentes-container">
+              <ul class="lentes-lista">
+                <li onclick="exibirLente('lente1')">Lentes Multifocais</li>
+                <li onclick="exibirLente('lente2')">Lentes de Bloqueio de Luz Azul</li>
+                <li onclick="exibirLente('lente3')">Lentes Transitions e Fotossensíveis</li>
+                <li onclick="exibirLente('lente4')">Lentes com antireflexo</li>
+                <li onclick="exibirLente('lente5')">Lentes de contato</li>
+              </ul>
+              <div class="linha-decorativa"></div>
+        
+              <div class="detalhes-lente">
+                <img id="lente-imagem" src="imagens/lente-principal.avif" />
+                <p id="lente-texto">Selecione uma lente para ver mais detalhes.</p>
+              </div>
             </div>
-            <div class="menu">
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">Lentes</a>
-                    <a href="#">Nos conheca</a>
-                    <a href="#">Parceiros</a>
-                    <a href="#">Dúvidas</a>
-                    <div class="sociais">
+          </div>
+        
+        
+        
+        
+          <section class="presentation-section">
+            <h2 class="presentation-title">Bem-vindo à Ótica Cursino</h2>
+            <div class="content-wrapper">
+                <img src="imagens/Otica-imagem.jpg" alt="Imagem da loja" />
+                <div class="presentation-content">
+                    <p>A Ótica Cursino é especializada em oferecer uma ampla variedade de óculos de grau, solares e lentes de contato, com foco em qualidade e conforto visual. Trabalhamos com marcas renomadas e uma equipe de profissionais dedicados para garantir atendimento personalizado e soluções que atendem às necessidades de cada cliente. Na Ótica Cursino, você encontra desde as últimas tendências em armações até tecnologias avançadas em lentes, proporcionando sempre a melhor experiência visual e estética.</p>
+                    <p><strong>Endereço:</strong> Av. do Cursino, 3666 - Vila Moraes</p>
+                    <h3>Horário de Funcionamento</h3>
+                    <p><strong>Seg a Sexta:</strong> 09:00 às 18:30</p>
+                    <p><strong>Sabado:</strong> 09:00 às 14:00</p>
+                    <div class="presentation-buttons">
+                        <h3 class="route-title">Faça sua rota</h3> <!-- Título Adicionado -->
+                        <div class="buttons-container">
+                            <a href="https://www.google.com/maps/dir//%C3%93tica+Cursino+-+Av.+do+Cursino,+3666+-+Vila+Moraes,+S%C3%A3o+Paulo+-+SP,+04132-220/@-23.6334344,-46.6191022,17z/data=!4m17!1m7!3m6!1s0x94ce5b14141cacbf:0x1dace1fbb2ac7d2a!2s%C3%93tica+Cursino!8m2!3d-23.6334393!4d-46.6165273!16s%2Fg%2F11gbfry60_!4m8!1m0!1m5!1m1!1s0x94ce5b14141cacbf:0x1dace1fbb2ac7d2a!2m2!1d-46.6165273!2d-23.6334393!3e3?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                <img src="imagens/logo-google-maps.svg" alt="Google Maps">
+                            </a>
+                            <a href="https://www.waze.com/pt-BR/live-map/directions/br/sp/otica-cursino?to=place.ChIJv6wcFBRbzpQRKn2ssvvhrB0" target="_blank">
+                                <img src="imagens/Waze_logo_2022.png" alt="Waze">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </article>
+        <article class="parceiros">
+            <h1>Nossos parceiros</h1>
+            <div class="container">
+        
+                <button class="arrow-left control" aria-label="Previous image">⮜</button>
+                <button class="arrow-right control" aria-label="Next Image">⮞</button>
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img src="imagens/logo-smart.png" alt="logo smart" class="item current-item">
+                        <img src="imagens/logo-vibe.webp" alt="logo vibe"class="item current-item">
+                        <img src="imagens/bulguet.png" alt="logo bulguet"class="item current-item">
+                        <img src="imagens/acuvue-logo.webp" alt="logo_johnson"class="item current-item">
+                        <img src="imagens/logo-kodak.png" alt="Kodak-Logo"class="item current-item">
+                        <img src="imagens/varilux-logo.png" alt="logo vibe"class="item current-item">
+                        <img src="imagens/logo-HB-vision.png" alt="logo bulguet"class="item current-item">
+        
+                    </div>
+                </div>
+            </div>
+        
+        
+        </article>
+        
+        <article class="duvidas">
+            <h1>Principais duvidas</h1>
+        
+                <section>
+        
+        
+                <details>
+                    <summary>Como faço o orçamento de lentes ou óculos completo (armação + lentes) ?</summary>
+                    <p>
+                        Esse orçamento pode ser realizado através do nosso WhatsApp ou, se preferir, presencialmente.
+        
+        
+                    </p>
+        
+        
+                </details>
+                <details>
+                    <summary>Posso trazer minha própria receita de óculos?</summary>
+                    <p>Claro! Se você já possui uma receita válida, pode trazê-la e nossa equipe ajudará a escolher a armação e as lentes ideais.</p>
+                </details>
+                <details>
+                    <summary>Vocês oferecem garantia nos óculos?</summary>
+                    <p>Sim, todos os nossos óculos vêm com garantia contra defeitos de fabricação. Além disso, oferecemos assistência para ajustes e reparos.</p>
+                </details>
+                <details>
+                    <summary>Quais as Formas de pagamento?</summary>
+                    <p>
+                        Trabalhamos com cartão de débito, crédito ou Pix.
+                    </p>
+                </details>
+        
+        
+                </section>
+        </article>
+        <footer>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-section">
+                        <h3>Sobre Nós</h3>
+                        <p>Somos uma ótica dedicada a oferecer as melhores lentes e serviços para a sua visão.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Endereço</h3>
+                        <p>Av. do Cursino, 3666 - Vila Moraes</p>
+                        <p>São Paulo - SP, 04132-002</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Contato</h3>
+                        <p>Email: Otica.cursino@gmail.com</p>
+                        <p>Telefone fixo:(11) 5062-7627</p>
+                        <p>Telefone: (11) 96446-1209</p>
+        
+                        <div class="sociais">
+        
                         <button class="whatsapp-button">
                             <i class="fa-brands fa-whatsapp"></i>
                             <p>Entre em contato</p>
                         </button>
-                                                </div>
-                        </a>
-                </nav>
-            </div>
-        </div>
-    </header>
-    
-
-    <article class="promocao">
-        <section class="promo-section">
-            <div class="promo-slides">
-                <div class="promo-slide active">
-                    <div class="promo-image">
-                        <img src="imagens/beautiful-blond-woman-put-glasses-laughing-smiling-with-happy-face-expression-standing-blue-shirt-white.jpg" alt="">
-                    </div>
-                    <div class="promo-text">
-                        <h2>🎉 Gberfrande Oferta de Armações! 🎉</h2>
-                        <h3>Aproveite nossas incríveis armações por apenas R$ 99,00!</h3>
-                        <p> <ul>
-                            <li>🔹 Qualidade e conforto garantidos!</li>
-                                <li>🔹 Escolha entre diversos modelos modernos!</li>
-                                <li>🔹 Promoção por tempo limitado — não fique de fora!</li>
-                            
-                                <li>👉 Garanta já a sua!</li>
-                        </ul></p>
-                    </div>
-                </div>
-                <div class="promo-slide">
-                    <div class="promo-image">
-                        <img src="imagens/Design sem nome.png" alt="lente-multifocal">
-                    </div>
-                    <div class="promo-text">
-                        <h2 style=>🔵 Promoção: Lentes de Proteção Blue! </h2>
-                        <h2 style=>A partir de R$ 198,00!</h2>
-                        <p style=>
-                            Proteja seus olhos da luz azul nociva com nossas lentes de alta qualidade. Elas ajudam a reduzir a fadiga ocular e oferecem conforto durante longas horas em frente às telas.
-
-                        </p>
-                        <ul style="display: flex; padding-left: 0; margin: 5px 0; list-style-type: none;">
-                            <li style="margin-right: 15px;">🔹Proteção Superior</li>
-                            <li style="margin-right: 15px;">🔹Conforto Visual</li>
-                            <li>🔹Estilo e Variedade</li>
-                        </ul>
-                        <p style="font-size: 1.4rem;">🕶️ Aproveite essa oferta e cuide da sua visão!</p>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Indicadores -->
-            <div class="promo-indicators">
-                <span class="indicator active" onclick="showSlide(0)"></span>
-                <span class="indicator" onclick="showSlide(1)"></span>
-            </div>
-        </section>
-    </article>
-    
-            <!-- Indicadores -->
-            <div class="promo-indicators">
-                <span class="indicator active" onclick="showSlide(0)"></span>
-                <span class="indicator" onclick="showSlide(1)"></span>
-            </div>
-        </section>
-    </article>
-
         
-    <div class="main-container">
-        <h1>Nossas lentes</h1>
-        <div class="lentes-container">
-          <ul class="lentes-lista">
-            <li onclick="exibirLente('lente1')">Lentes Multifocais</li>
-            <li onclick="exibirLente('lente2')">Lentes de Bloqueio de Luz Azul</li>
-            <li onclick="exibirLente('lente3')">Lentes Transitions e Fotossensíveis</li>
-            <li onclick="exibirLente('lente4')">Lentes com antireflexo</li>
-            <li onclick="exibirLente('lente5')">Lentes de contato</li>
-          </ul>
-          <div class="linha-decorativa"></div>
-      
-          <div class="detalhes-lente">
-            <img id="lente-imagem" src="imagens/lente-principal.avif" />
-            <p id="lente-texto">Selecione uma lente para ver mais detalhes.</p>
-          </div>
-        </div>
-      </div>
-      
-    
-        
-    
-      <section class="presentation-section">
-        <h2 class="presentation-title">Bem-vindo à Ótica Cursino</h2>
-        <div class="content-wrapper">
-            <img src="imagens/Otica-imagem.jpg" alt="Imagem da loja" />
-            <div class="presentation-content">
-                <p>A Ótica Cursino é especializada em oferecer uma ampla variedade de óculos de grau, solares e lentes de contato, com foco em qualidade e conforto visual. Trabalhamos com marcas renomadas e uma equipe de profissionais dedicados para garantir atendimento personalizado e soluções que atendem às necessidades de cada cliente. Na Ótica Cursino, você encontra desde as últimas tendências em armações até tecnologias avançadas em lentes, proporcionando sempre a melhor experiência visual e estética.</p>
-                <p><strong>Endereço:</strong> Av. do Cursino, 3666 - Vila Moraes</p>
-
-                <h3>Horário de Funcionamento</h3>
-                <p><strong>Seg a Sexta:</strong> 09:00 às 18:30</p>
-                <p><strong>Sabado:</strong> 09:00 às 14:00</p>
-                <div class="presentation-buttons">
-                    <h3 class="route-title">Faça sua rota</h3> <!-- Título Adicionado -->
-                    <div class="buttons-container">
-                        <a href="https://www.google.com/maps/dir//%C3%93tica+Cursino+-+Av.+do+Cursino,+3666+-+Vila+Moraes,+S%C3%A3o+Paulo+-+SP,+04132-220/@-23.6334344,-46.6191022,17z/data=!4m17!1m7!3m6!1s0x94ce5b14141cacbf:0x1dace1fbb2ac7d2a!2s%C3%93tica+Cursino!8m2!3d-23.6334393!4d-46.6165273!16s%2Fg%2F11gbfry60_!4m8!1m0!1m5!1m1!1s0x94ce5b14141cacbf:0x1dace1fbb2ac7d2a!2m2!1d-46.6165273!2d-23.6334393!3e3?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
-                            <img src="imagens/logo-google-maps.svg" alt="Google Maps">
-                        </a>
-                        <a href="https://www.waze.com/pt-BR/live-map/directions/br/sp/otica-cursino?to=place.ChIJv6wcFBRbzpQRKn2ssvvhrB0" target="_blank">
-                            <img src="imagens/Waze_logo_2022.png" alt="Waze">
-                        </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-   
-
-
-    </article>
-    <article class="parceiros">
-        <h1>Nossos parceiros</h1>
-        <div class="container">
-            
-            <button class="arrow-left control" aria-label="Previous image">⮜</button>
-            <button class="arrow-right control" aria-label="Next Image">⮞</button>
-            <div class="gallery-wrapper">
-                <div class="gallery">
-                    <img src="imagens/logo-smart.png" alt="logo smart" class="item current-item">
-                    <img src="imagens/logo-vibe.webp" alt="logo vibe"class="item current-item">
-                    <img src="imagens/bulguet.png" alt="logo bulguet"class="item current-item">
-                    <img src="imagens/acuvue-logo.webp" alt="logo_johnson"class="item current-item">
-                    <img src="imagens/logo-kodak.png" alt="Kodak-Logo"class="item current-item">
-                    <img src="imagens/varilux-logo.png" alt="logo vibe"class="item current-item">
-                    <img src="imagens/logo-HB-vision.png" alt="logo bulguet"class="item current-item">
-                    
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Ótica Cursino. Todos os direitos reservados.</p>
                 </div>
-            </div>
-        </div>
-        
-            
-    </article> 
-        
-    <article class="duvidas">
-        <h1>Principais duvidas</h1>
-        
-            <section>
-            
-                
-            <details>
-                <summary>Como faço o orçamento de lentes ou óculos completo (armação + lentes) ?</summary>
-                <p>
-                    Esse orçamento pode ser realizado através do nosso WhatsApp ou, se preferir, presencialmente.
-
-                    
-                    
-                </p>
- 
-                
-
-               
-
-            </details>
-            <details>
-                <summary>Posso trazer minha própria receita de óculos?</summary>
-                <p>Claro! Se você já possui uma receita válida, pode trazê-la e nossa equipe ajudará a escolher a armação e as lentes ideais.</p>
-            </details>
-            <details>
-                <summary>Vocês oferecem garantia nos óculos?</summary>
-                <p>Sim, todos os nossos óculos vêm com garantia contra defeitos de fabricação. Além disso, oferecemos assistência para ajustes e reparos.</p>
-            </details>
-            <details>
-                <summary>Quais as Formas de pagamento?</summary>
-                <p>
-                    Trabalhamos com cartão de débito, crédito ou Pix.
-                </p>
-            </details>
-
-            
-            
-            </section>
-    </article>
-    <footer>
-        <footer>
-            <div class="footer-container">
-                <div class="footer-section">
-                    <h3>Sobre Nós</h3>
-                    <p>Somos uma ótica dedicada a oferecer as melhores lentes e serviços para a sua visão.</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Endereço</h3>
-                    <p>Av. do Cursino, 3666 - Vila Moraes</p>
-                    <p>São Paulo - SP, 04132-002</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Contato</h3>
-                    <p>Email: Otica.cursino@gmail.com</p>
-                    <p>Telefone fixo:(11) 5062-7627</p>
-                    <p>Telefone: (11) 96446-1209</p>
-                    
-                    <div class="sociais">
-              
-                    <button class="whatsapp-button">
-                        <i class="fa-brands fa-whatsapp"></i>
-                        <p>Entre em contato</p>
-                    </button>
-                
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Ótica Cursino. Todos os direitos reservados.</p>
-            </div>
+            </footer>
         </footer>
-    </footer>
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+        </body>
+    </container>
     
 
 </html>

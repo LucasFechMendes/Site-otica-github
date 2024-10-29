@@ -51,12 +51,19 @@ body {
     
      
 }
-
 body, html {
-    width: 100%;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
     box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%; /* Isso é importante para garantir que não haja limites de largura */
+    padding: 0; /* Remova padding lateral que pode estar limitando a largura */
+    overflow-x: hidden; /* Para evitar overflow horizontal */
 }
 
 body {
