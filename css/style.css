@@ -36,10 +36,11 @@
      
 }
 
-body {
-    width: 110%;
-    
-    font-family: 'Arial', sans-serif; /* Definindo uma fonte padrão */
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Estilos principais do cabeçalho */
