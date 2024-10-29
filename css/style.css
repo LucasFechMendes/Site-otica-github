@@ -37,8 +37,8 @@
 }
 
 body {
-    width: 100%;
-    overflow-x: hidden;
+    width: 110%;
+    
     font-family: 'Arial', sans-serif; /* Definindo uma fonte padrão */
 }
 
