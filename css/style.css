@@ -1182,6 +1182,7 @@ footer {
     .footer-section {
         min-width: 100%; /* Ocupa quase toda a largura em telas menores */
         margin: 5px 0; /* Reduz as margens entre seções */
+        padding: 10px;
         
     }
 
@@ -1211,5 +1212,7 @@ footer {
 
     .footer-section > .whatsapp-button {
         width: 50%;
+        margin: 10px;
+        padding: 10px;
     }
 }
