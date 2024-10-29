@@ -43,6 +43,10 @@ body, html {
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* Estilos principais do cabeçalho */
 .container {
     margin: 0 auto;
