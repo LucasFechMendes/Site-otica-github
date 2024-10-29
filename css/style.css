@@ -1160,7 +1160,7 @@ footer {
 
 .sociais button {
     width: auto; /* Ajusta a largura do botão */
-    height: 40px; /* Altura do botão */
+    height: 20px; /* Altura do botão */
     background-image: linear-gradient(45deg, #4CAF50, #008CBA); /* Gradiente azul */
     border: none;
     border-radius: 8px;
@@ -1201,11 +1201,15 @@ footer {
     div.footer-section > .sociais{
         width: auto; /* Ajusta a largura do botão */
         font-size: 14px; /* Reduz o tamanho da fonte */
-        height: 35px; /* Ajusta a altura para o botão ficar proporcional */
+        height: auto; /* Ajusta a altura para o botão ficar proporcional */
         
     }
 
     .sociais button i {
         font-size: 18px; /* Ajusta o tamanho do ícone */
+    }
+
+    .footer-section > .whatsapp-button {
+        width: 50%;
     }
 }
