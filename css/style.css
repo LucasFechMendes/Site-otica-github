@@ -27,6 +27,22 @@
 
 }
 
+:root {
+    --background-color: white;
+    --text-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: black;
+        --text-color: white;
+    }
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
 
 *{
     margin: 0px;
@@ -45,6 +61,8 @@ body, html {
 
 body {
     overflow-x: hidden;
+    background-color: white;
+    color: black;
 }
 
 /* Estilos principais do cabeçalho */
