@@ -58,6 +58,7 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: relative; /* Mantém o cabeçalho em uma camada acima do menu */
     z-index: 1001; /* Coloca o cabeçalho acima do menu */
+    height: 110px;
 }
 
 .logo img {
