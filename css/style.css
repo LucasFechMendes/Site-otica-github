@@ -1202,7 +1202,7 @@ footer {
         width: auto; /* Ajusta a largura do botão */
         font-size: 14px; /* Reduz o tamanho da fonte */
         height: 35px; /* Ajusta a altura para o botão ficar proporcional */
-        margin-left: 160px;
+        margin-left: 60px;
     }
 
     .sociais button i {
