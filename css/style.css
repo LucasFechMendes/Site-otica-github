@@ -172,9 +172,10 @@ a {
     font-size: 24px; /* Tamanho do ícone */
 }
 
-.sociais > .whatsapp-button{
-    background-color: green;
+.whatsapp-button > a{
     padding: 20px;
+    font-size: 2.4em;
+    background-color: #1da251;
 }
 
 
@@ -262,21 +263,52 @@ a {
     }
 
     /* Botão de WhatsApp centralizado */
-     .sociais > .whatsapp-button{  
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 330%; /* Ajusta para dar espaço nas laterais */
-        max-width: 370px; /* Largura máxima para evitar que o botão se estenda muito */
-        margin: 10px auto 10px -50%; /* Margem esquerda para alinhamento */
-        padding: 22px;
-        font-size: 20px;
-        background-color: #25D366;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
+
+    .whatsapp-button {
+        width: 100%; /* Ocupa 100% da largura do contêiner pai */
+        padding: 25px; /* Aumenta o espaçamento interno do botão */
+        font-size: 20px; /* Tamanho da fonte do texto */
+        margin-top: 10px; /* Espaçamento acima do botão */
+        border: none; /* Remove a borda padrão */
+        background-color: #25D366; /* Cor do botão do WhatsApp */
+        color: white; /* Cor do texto */
+        border-radius: 5px; /* Bordas arredondadas */
+        cursor: pointer; /* Muda o cursor ao passar o mouse */
+        transition: background-color 0.3s, transform 0.2s; /* Transição suave de cor e transformação */
+        display: flex; /* Usa flexbox para o ícone e texto ficarem alinhados */
+        align-items: center; /* Alinha verticalmente os itens */
+        justify-content: center; /* Centraliza horizontalmente os itens */
+        white-space: nowrap; /* Impede que o texto quebre em múltiplas linhas */
+        overflow: hidden; /* Oculta o texto que não cabe */
+        text-overflow: ellipsis; /* Adiciona reticências se o texto for muito longo */
     }
+    
+    .whatsapp-button i {
+        margin-right: 10px; /* Espaço entre o ícone e o texto */
+        font-size: 24px; /* Tamanho do ícone */
+    }
+    
+    .whatsapp-button>p {
+        font-family: var(--fonte02);
+        font-size: 18px;
+    }
+    
+    .whatsapp-button:hover {
+        background-color: #1da251; /* Cor ao passar o mouse */
+        transform: scale(1.05); /* Aumenta levemente o botão ao passar o mouse */
+    }
+    
+    .whatsapp-button i {
+        margin-right: 10px; /* Espaço entre o ícone e o texto */
+        font-size: 24px; /* Tamanho do ícone */
+    }
+    
+    .whatsapp-button > a{
+        padding: 20px;
+        font-size: 2.4em;
+        background-color: #1da251;
+    }
+    
 
 
    
@@ -308,7 +340,30 @@ a {
 
 
 
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1400px;
+        padding: 10px;
+    }
 
+    header {
+        padding: 10px 20px;
+    }
+
+    .logo img {
+        width: 130px;
+        margin-bottom: 5px;
+    }
+
+    .menu nav a {
+        font-size: 26px; /* Aumenta o tamanho da fonte para 22px */
+        padding: 10px 15px; /* Ajusta o espaçamento interno dos links */
+        font-weight: normal; /* Adiciona negrito para mais destaque */
+        font-family: var(--fonte03);
+    }
+
+    
+}
 
 
 
