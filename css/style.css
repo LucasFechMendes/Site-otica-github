@@ -220,7 +220,7 @@ a {
 }
 
 /* Media query para telas menores */
-@media (max-width: 768px) {
+@media (max-width: 774px) {
     /* Estilização do menu */
     .menu {
         display: none; /* Oculta o menu por padrão */
