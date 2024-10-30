@@ -318,7 +318,7 @@ a {
         margin-left: 10px;
     }
 
-    div.whats{
+    div.whats1{
         margin-left: -60px;
     }
     
@@ -1260,5 +1260,9 @@ footer {
         width: 100%;
         margin: 2px;
         padding: 2px;
+    }
+
+    div.whats2{
+        width: 100%;
     }
 }
