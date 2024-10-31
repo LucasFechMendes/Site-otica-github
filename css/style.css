@@ -349,34 +349,39 @@ a {
     }
 }
 
-
-
-
-
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
     .container {
-        max-width: 1400px;
-        padding: 10px;
+        max-width: 1400px; /* Limite da largura para telas grandes */
+        padding: 0 20px; /* Adiciona um pouco de espaçamento lateral */
     }
-
+    
     header {
-        padding: 10px 20px;
+        padding: 20px; /* Aumenta o espaçamento no cabeçalho */
+        height: 150px; /* Ajuste na altura do cabeçalho */
     }
 
     .logo img {
-        width: 130px;
-        margin-bottom: 5px;
+        width: 160px; /* Aumenta o tamanho do logotipo */
     }
 
     .menu nav a {
-        font-size: 26px; /* Aumenta o tamanho da fonte para 22px */
-        padding: 10px 15px; /* Ajusta o espaçamento interno dos links */
-        font-weight: normal; /* Adiciona negrito para mais destaque */
-        font-family: var(--fonte03);
+        font-size: 22px; /* Aumenta o tamanho da fonte dos links */
+        padding: 0 20px; /* Maior espaçamento entre os links */
     }
 
-    
+    .whatsapp-button {
+        font-size: 24px; /* Aumenta o tamanho do texto */
+        padding: 30px; /* Aumenta o espaçamento interno */
+    }
+
+    .sociais {
+        margin-left: 30px; /* Aumenta o espaçamento das redes sociais */
+    }
 }
+
+
+
+
 
 
 
