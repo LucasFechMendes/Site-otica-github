@@ -1160,6 +1160,7 @@ footer {
     background-color: #003366; /* Cor de fundo do rodapé (azul escuro) */
     color: #ffffff; /* Cor do texto */
     padding: 20px 0; /* Espaçamento interno */
+    max-height: 400px;
 }
 
 .footer-container {
@@ -1228,6 +1229,18 @@ footer {
     font-size: 20px; /* Tamanho do ícone do WhatsApp */
     margin-right: 5px; /* Espaçamento entre o ícone e o texto */
 }
+
+
+.whats2{
+    width: 90%;
+    max-height: 130px;
+    max-width: 230px;
+    margin: 10px;
+}
+
+
+
+
 
 @media (max-width: 740px) {
     .footer-section {
